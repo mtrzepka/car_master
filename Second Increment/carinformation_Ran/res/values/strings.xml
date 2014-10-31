@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">carinformation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="state_prompt">Select  Manufactory</string>
+    <string name="category_prompt">Select  Model</string>
+    <string name="view_prompt">Select Year</string>
+
+</resources>
