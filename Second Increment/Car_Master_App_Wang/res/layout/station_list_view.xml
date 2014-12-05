@@ -8,14 +8,15 @@
             android:id="@+id/Station"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:layout_marginTop="10dip"
+            android:textSize="36sp"
             android:textStyle="bold" />
 		<TextView
             android:id="@+id/se"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/regP"
-            android:textSize="24sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:text="$" />
         <TextView
@@ -26,8 +27,6 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
-
-        <!-- desciption -->
 		<TextView
             android:id="@+id/midP"
             android:layout_width="fill_parent"
@@ -36,6 +35,30 @@
             android:textSize="0sp" />
 		<TextView
             android:id="@+id/premP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+		<TextView
+            android:id="@+id/lat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+		<TextView
+            android:id="@+id/lng"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+		<TextView
+            android:id="@+id/lat1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+		<TextView
+            android:id="@+id/lng1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="#dc6800"
@@ -79,6 +102,7 @@
             android:id="@+id/distance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
             android:textStyle="bold"
             android:gravity="left"
             android:layout_below="@+id/address">

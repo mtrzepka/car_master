@@ -68,6 +68,15 @@ public class MainActivity extends Activity {
 			}
  
 		});
+		button3 = (Button) findViewById(R.id.button3);
+		button3.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+			    Intent intent = new Intent(context, CarValueActivity.class);
+                startActivity(intent);   
+			}
+		});
+
 	}
  
 }

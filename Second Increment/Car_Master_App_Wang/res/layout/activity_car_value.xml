@@ -10,8 +10,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/editText1"
+        android:layout_toLeftOf="@+id/textView1"
         android:ems="10"
-        android:text="Year" />
+        android:hint="Year" />
 
     <EditText
         android:id="@+id/editText4"
@@ -19,11 +20,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editText2"
+        android:layout_toRightOf="@+id/textView1"
         android:ems="10"
-        android:text="Condition" />
+        android:hint="Condition" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -31,22 +33,14 @@
         android:text="Calculate" />
 
     <EditText
-        android:id="@+id/editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:ems="10"
-        android:text="Value" />
-
-    <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/editText3"
+        android:layout_alignLeft="@+id/editText4"
         android:layout_alignParentRight="true"
         android:ems="10"
-        android:text="Model" />
+        android:hint="Model" />
 
     <EditText
         android:id="@+id/editText1"
@@ -54,7 +48,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView1"
         android:ems="10"
-        android:text="Make" />
+        android:hint="Make" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
