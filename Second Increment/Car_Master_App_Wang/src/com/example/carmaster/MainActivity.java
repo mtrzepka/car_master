@@ -76,6 +76,14 @@ public class MainActivity extends Activity {
                 startActivity(intent);   
 			}
 		});
+		button2 = (Button) findViewById(R.id.button1);
+		button2.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+			    Intent intent = new Intent(context, CarDetailActivity.class);
+                startActivity(intent);   
+			}
+		});
 
 	}
  

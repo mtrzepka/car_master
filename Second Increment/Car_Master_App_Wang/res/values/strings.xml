@@ -7,6 +7,9 @@
     <string name="model_prompt">Select  Model</string>
     <string name="year_prompt">Select Year</string>
     <string name="title_activity_car_value">Car Value</string>
+    <string name="state_prompt">Select  Manufactory</string>
+    <string name="category_prompt">Select  Model</string>
+    <string name="view_prompt">Select Year</string>
     <string name="hello_world">Hello world!</string>
 
 </resources>

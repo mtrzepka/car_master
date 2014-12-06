@@ -198,11 +198,12 @@ public class RecallListActivity extends ListActivity{
                     System.out.println(numr);
                     if (numr.equals("0")){
                     	alt_bld = new AlertDialog.Builder(RecallListActivity.this);
-            			alt_bld.setMessage("Dont have the record you are looking for");
+            			alt_bld.setMessage("0 reuslt");
             			alt_bld.setCancelable(false);
             			alt_bld.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     		public void onClick(DialogInterface dialog, int id) {
                     		dialog.cancel();
+                    		finish();
                     		}
                     		});
                     	AlertDialog alert = alt_bld.create();
