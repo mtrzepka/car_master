@@ -4,12 +4,14 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 public class MainActivity extends Activity {
-	Button button,button1,button2,button3,button4;
+	ImageButton recallB,infoB,priceB,ServicesB,GSationB;
 	GPSTracker GPS;
 	String Latitude="";
 	String Longtitude="";
@@ -17,16 +19,18 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		RelativeLayout rl = (RelativeLayout)findViewById(R.id.rl);
+		rl.setBackgroundColor(Color.WHITE);
 		addListenerOnButton();
 	}
 	public void addListenerOnButton() {
 		 
 		final Context context = this;
  
-		button = (Button) findViewById(R.id.button2);
-		button1 = (Button) findViewById(R.id.button5);
+		recallB = (ImageButton) findViewById(R.id.imageButton4);
+		GSationB = (ImageButton) findViewById(R.id.imageButton5);
 
-		button.setOnClickListener(new OnClickListener() {
+		recallB.setOnClickListener(new OnClickListener() {
 			 
 			@Override
 			public void onClick(View arg0) {
@@ -37,7 +41,7 @@ public class MainActivity extends Activity {
 			}
  
 		});
-		button1.setOnClickListener(new OnClickListener() {
+		GSationB.setOnClickListener(new OnClickListener() {
 			 
 			@Override
 			public void onClick(View arg0) {
@@ -68,16 +72,16 @@ public class MainActivity extends Activity {
 			}
  
 		});
-		button3 = (Button) findViewById(R.id.button3);
-		button3.setOnClickListener(new OnClickListener() {
+		priceB = (ImageButton) findViewById(R.id.imageButton1);
+		priceB.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 			    Intent intent = new Intent(context, CarValueActivity.class);
                 startActivity(intent);   
 			}
 		});
-		button2 = (Button) findViewById(R.id.button1);
-		button2.setOnClickListener(new OnClickListener() {
+		infoB = (ImageButton) findViewById(R.id.imageButton2);
+		infoB.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 			    Intent intent = new Intent(context, CarDetailActivity.class);
