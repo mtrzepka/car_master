@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="18" />
 	<permission
         android:name="app.akexorcist.googlemapsv2direction.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
