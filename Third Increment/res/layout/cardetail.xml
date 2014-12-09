@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Made: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/made_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Model: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/model_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Engine Compression Ration: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/compression_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Engine cylinder: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/cylinder_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Engine size: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/size_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Engine displacement: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/displacement_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Engine fulType: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/fulType_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Engine horsepower: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/horsepower_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Engine torque: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/torque_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Engine totalValves: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/totalValves_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Drive wheels: " >
+        </TextView>
+   
+   
+    <TextView android:id="@+id/drivewheels_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+   
+    
+    
+    
+    
+
+</LinearLayout>
+</ScrollView>
