@@ -13,14 +13,14 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton5"
         android:layout_width="80dip"
         android:layout_height="80dip"
         android:background="@android:color/transparent"
         android:scaleType="fitXY"
+        android:src="@drawable/gas_station"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="225dp"
-        android:src="@drawable/car_services" />
+        android:layout_marginLeft="225dp" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -32,15 +32,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/car_recall" />
 
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="80dip"
-        android:layout_height="80dip"
-        android:background="@android:color/transparent"
-        android:scaleType="fitXY"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="425dp"
-        android:src="@drawable/gas_station" />
+
 
     
 
@@ -75,53 +67,16 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView2"
-        android:layout_alignBottom="@+id/textView2"
-        android:layout_marginLeft="11dp"
-        android:layout_toRightOf="@+id/imageButton5"
-        android:text="Car Detail"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        
         android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/imageButton4"
         android:layout_marginTop="13dp"
         android:text="Car Recall"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView4"
-        android:layout_alignBottom="@+id/textView4"
-        android:layout_toRightOf="@+id/imageButton5"
-        android:text="Car Service"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageButton5"
-        android:layout_centerHorizontal="true"
-        android:text="Nearby Gas Station"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="99dp"
-        android:text="Car Master provide you 5 features for your" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -131,5 +86,26 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="1dp"
         android:src="@drawable/car_master" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignRight="@+id/imageButton2"
+        android:text="Car Detail"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:text="Gas Station"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
